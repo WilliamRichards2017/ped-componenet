@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Pedigree pedTxtProp="1408 1011 1012 1014 2 0\n
+    1408 1012 1020 1019 1 0 \n
+    1408 1013 1012 1014 1 0 \n
+    1408 1014 1018 1017 2 0 \n
+    1408 1015 1012 1014 1 0 \n
+    1408 1016 1012 1014 1 0 \n
+    1408 1017 0 0 2 0 \n
+    1408 1018 0 0 1 0 \n
+    1408 1019 0 0 2 0 \n
+    1408 1020 0 0 1 0 \n">
+
+    </Pedigree>
+
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Pedigree from './components/Pedigree.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Pedigree
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
